@@ -1,5 +1,5 @@
 import time
-from telethon import TelegramClient, events
+from telethon.sync import TelegramClient, events
 from telethon.errors.common import MultiError
 from .config import *
 from .sql import DB
